@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "water-bay", "name": "Disaster Flood Plain / Bay Water", "type": "water" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.3900, 37.8100],
+            [-122.3800, 37.7900],
+            [-122.3820, 37.7700],
+            [-122.3880, 37.7500],
+            [-122.3600, 37.7500],
+            [-122.3600, 37.8100],
+            [-122.3900, 37.8100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "evac-zone-alpha", "name": "Safe Zone Highland Peak", "type": "safe_zone", "elevation": 280 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.4550, 37.7500],
+            [-122.4400, 37.7500],
+            [-122.4400, 37.7600],
+            [-122.4550, 37.7600],
+            [-122.4550, 37.7500]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "evac-zone-beta", "name": "Civic High Ground Zone", "type": "safe_zone", "elevation": 85 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.4220, 37.7800],
+            [-122.4120, 37.7800],
+            [-122.4120, 37.7870],
+            [-122.4220, 37.7870],
+            [-122.4220, 37.7800]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-market-st", "name": "Market Corridor (Primary Route)", "type": "primary_road", "elevation": 18 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4450, 37.7550],
+          [-122.4350, 37.7630],
+          [-122.4220, 37.7730],
+          [-122.4100, 37.7820],
+          [-122.3950, 37.7950]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-mission-st", "name": "Mission Evacuation Arterial", "type": "primary_road", "elevation": 22 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4300, 37.7450],
+          [-122.4220, 37.7600],
+          [-122.4140, 37.7750],
+          [-122.4000, 37.7900]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-van-ness", "name": "Van Ness North-South Conduit", "type": "primary_road", "elevation": 30 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4200, 37.7500],
+          [-122.4200, 37.7700],
+          [-122.4200, 37.7900],
+          [-122.4200, 37.8050]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-cross-1", "name": "Civic Center Bypass Road", "type": "secondary_road", "elevation": 26 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4350, 37.7800],
+          [-122.4100, 37.7800]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-cross-2", "name": "Summit Ridge Accessway", "type": "secondary_road", "elevation": 180 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4477, 37.7544],
+          [-122.4350, 37.7630]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-cross-3", "name": "Pier Emergency Access Route", "type": "secondary_road", "elevation": 14 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4200, 37.7900],
+          [-122.4100, 37.8050]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "contour-100m", "name": "Elevation Contour: 100m", "type": "elevation_contour", "level": 100 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4600, 37.7650],
+          [-122.4450, 37.7700],
+          [-122.4380, 37.7550]
+        ]
+      }
+    }
+  ]
+}
