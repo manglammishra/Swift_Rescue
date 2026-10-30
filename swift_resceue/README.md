@@ -4,7 +4,7 @@
 
 A decentralized peer-to-peer emergency communication app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach. No accounts, no phone numbers, no central servers. Built to keep people connected during emergencies.
 
-[SwiftRescue](http://bitchat.free)
+
 
 📲 App Store: SwiftRescue
 
